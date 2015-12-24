@@ -2,7 +2,7 @@
 	"name": "swig",
 	"displayName": "Swig",
 	"description": "A language support for Swig",
-	"version": "0.0.3",
+	"version": "0.0.5",
 	"publisher": "zhutian",
 	"engines": {
 		"vscode": "^0.10.1"

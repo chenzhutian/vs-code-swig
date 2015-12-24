@@ -1,0 +1,80 @@
+{
+	"autoescape": {
+		"prefix": "autoescape",
+		"body": "{% autoescape ${2:on}${3: \"${4:js}\"} %}\n\t$0\n{% endautoescape %}",
+		"description": "autoescape",
+		"scope": "text.html.swig"
+	},
+	"else": {
+		"prefix": "else",
+		"body": "{% else %}",
+		"description": "else",
+		"scope": "text.html.swig"
+	},
+	"extends": {
+		"prefix": "extends",
+		"body": "{% extends \"${1:file}\" %}",
+		"description": "extends",
+		"scope": "text.html.swig"
+	},
+	"filter": {
+		"prefix": "filter",
+		"body": "{% filter ${1:filtername}${2: ${3:args}} %}\n    $0\n{% endfilter %}",
+		"description": "filter",
+		"scope": "text.html.swig"
+	},
+	"for": {
+		"prefix": "for",
+		"body": "{% for ${1:foo} in ${2:bar} %}\n    $0\n{% endfor %}",
+		"description": "for",
+		"scope": "text.html.swig"
+	},
+	"if": {
+		"prefix": "if",
+		"body": "{% if ${1:condition} %}\n    $0\n{% endif %}",
+		"description": "if",
+		"scope": "text.html.swig"
+	},
+	"import": {
+		"prefix": "import",
+		"body": "{% import \"${1:file}\" as ${2:varname} %}",
+		"description": "import",
+		"scope": "text.html.swig"
+	},
+	"include": {
+		"prefix": "include",
+		"body": "{% include \"${1:file}\" ${2:with ${3:context}${4: only}} %}",
+		"description": "include",
+		"scope": "text.html.swig"
+	},
+	"macro": {
+		"prefix": "macro",
+		"body": "{% macro ${1:name} ${2:args} %}\n\t$0\n{% endmacro %}",
+		"description": "macro",
+		"scope": "text.html.swig"
+	},
+	"parent": {
+		"prefix": "parent",
+		"body": "{% parent %}",
+		"description": "parent",
+		"scope": "text.html.swig"
+	},
+	"set": {
+		"prefix": "set",
+		"body": "{% set ${1:name} = ${2:value} %}",
+		"description": "set",
+		"scope": "text.html.swig"
+	},
+	"tag": {
+		"prefix": "tag",
+		"body": "{% ${1:tag} %}\n\t$0\n{% end$1 %}",
+		"description": "tag",
+		"scope": "text.html.swig"
+	},
+	"block": {
+		"prefix": "block",
+		"body": "{% block ${1:blockname} %}\n    $0\n{% endblock %}",
+		"description": "block",
+		"scope": "text.html.swig"
+	}
+}

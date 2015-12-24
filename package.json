@@ -1,0 +1,35 @@
+{
+	"name": "swig",
+	"displayName": "Swig",
+	"description": "A language support for Swig",
+	"version": "0.0.3",
+	"publisher": "zhutian",
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Languages",
+        "Snippets"
+	],
+    "keywords":["swig"],
+    "icon":"img/icon.png",
+	"contributes": {
+		"languages": [{
+			"id": "swig",
+			"aliases": ["Swig", "swig"],
+			"extensions": [".swig"],
+			"configuration": "./swig.configuration.json"
+		}],
+		"grammars": [{
+			"language": "swig",
+			"scopeName": "text.html.swig",
+			"path": "./syntaxes/swig.tmLanguage"
+		}],
+        "snippets": [
+            {
+                "language": "swig",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+	}
+}

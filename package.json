@@ -9,27 +9,43 @@
 	},
 	"categories": [
 		"Languages",
-        "Snippets"
+		"Snippets"
 	],
-    "keywords":["swig"],
-    "icon":"img/icon.png",
+	"keywords": [
+		"swig"
+	],
+	"icon": "img/icon.png",
 	"contributes": {
-		"languages": [{
-			"id": "swig",
-			"aliases": ["Swig", "swig"],
-			"extensions": [".swig"],
-			"configuration": "./swig.configuration.json"
-		}],
-		"grammars": [{
-			"language": "swig",
-			"scopeName": "text.html.swig",
-			"path": "./syntaxes/swig.tmLanguage"
-		}],
-        "snippets": [
-            {
-                "language": "swig",
-                "path": "./snippets/snippets.json"
-            }
-        ]
+		"languages": [
+			{
+				"id": "swig",
+				"aliases": [
+					"Swig",
+					"swig"
+				],
+				"extensions": [
+					".i"
+				],
+				"configuration": "./swig.configuration.json"
+			}
+		],
+		"grammars": [
+			{
+				"language": "swig",
+				"scopeName": "text.html.swig",
+				"path": "./syntaxes/swig.tmLanguage"
+			}
+		],
+		"snippets": [
+			{
+				"language": "swig",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "07e1dd03-92c5-45ef-ab1c-e74986aa3e95",
+		"publisherId": "79a62660-0ab7-4b92-a72c-8c31237be04c",
+		"publisherDisplayName": "zhutian"
 	}
 }

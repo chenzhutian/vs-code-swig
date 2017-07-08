@@ -24,7 +24,7 @@
 					"swig"
 				],
 				"extensions": [
-					".i"
+					".swig"
 				],
 				"configuration": "./swig.configuration.json"
 			}

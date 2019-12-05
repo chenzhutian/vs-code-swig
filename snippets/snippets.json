@@ -76,5 +76,11 @@
 		"body": "{% block ${1:blockname} %}\n    $0\n{% endblock %}",
 		"description": "block",
 		"scope": "text.html.swig"
+	},
+	"comment": {
+		"prefix": "comment",
+		"body": "{# ${1:comment} #}",
+		"description": "comment",
+		"scope": "text.html.swig"
 	}
 }
